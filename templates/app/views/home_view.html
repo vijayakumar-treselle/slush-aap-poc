@@ -1,0 +1,21 @@
+<div class="col-md-12 aap-container">
+  <!-- Global header template section end -->
+  <ng-include src="'views/layouts/header.html'"></ng-include>
+
+  <div class="col-md-12">
+    <section class="col-md-12">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="logo">
+            <img class="img-responsive" src="assets/images/adoptapet_bg.png">
+          </div>
+          <aap_widget ng-if="petSearchListData" data="petSearchListData"></aap_widget>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Global footer template section -->
+  <!-- <ng-include src="'views/layouts/footer.html'"></ng-include> -->
+</div>

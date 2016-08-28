@@ -1,0 +1,71 @@
+// Media query styles
+
+@media screen and (max-width:1250px) {
+  .sp-search-button{
+    width: 22%;
+  }
+
+}
+@media screen and (max-width:1020px) {
+  .sp-search-button{
+    width: 24%;
+  }
+}
+@media screen and (min-width:801px) {
+  .sp-search-panel {
+    width: 50%;
+  }
+}
+@media screen and (max-width:800px) {
+  .sp-search-panel {
+    margin: 15% 6%;
+    width: 94%;
+  }
+  .logo {
+    margin: 2% 0;
+    width: 29%;
+  }
+  .sp-form input {
+    margin: 12px 0!important;
+  }
+}
+
+@media screen and (max-width:640px) {
+  .logo {
+    margin: 3% 0;
+    width: 30%;
+  }
+  .aap-container {
+    padding: 0;
+  }
+  .sp-search-panel {
+    margin: 15% 1%;
+    width: 100%;
+  }
+  .sp-form input, .sp-form select {
+    margin: 10px 0;
+    width: 75% !important;
+  }
+  .sp-search-button {
+    width: 35%;
+    margin: 5% 35%;
+  }
+}
+@media screen and (max-width:420px) {
+  .sp-form input, .sp-form select {
+    width: 100% !important;
+    margin: 10px 0!important;
+  }
+  .sp-search-button {
+    margin-left: 32% !important;
+    width: 32% !important;
+  }
+  .sp-head{
+    font-size: 1.8em;
+  }
+  .ui-widget-content {
+  max-height: 140px !important;
+  overflow-y:auto;
+}
+}
+

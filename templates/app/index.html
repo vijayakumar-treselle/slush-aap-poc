@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html ng-app="AdoptapetApp" ng-controller="RootController">
+  <head>
+    <meta charset="UTF-8">
+    <title>AAP PoC</title>
+
+    <!--build:css assets/css/app_styles.css-->
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/styles.css">
+    <!--endbuild-->
+
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+  </head>
+  <body class="launcher-bg">
+
+    <!-- Main Stage View  -->
+    <div ng-view ng-cloak></div>
+  </body>
+
+  <!--build:js assets/js/app_output.js -->
+  <script src="assets/library/jquery/jquery.js"></script>
+  <script src="assets/library/angular.js"></script>
+  <script src="assets/library/angular-route.js"></script>
+  <script src="assets/library/angular-cookies.js"></script>
+  <script src="assets/library/angular-sanitize.min.js"></script>
+  <script src="assets/library/angular-resource.js"></script>
+  <script src="assets/library/underscore-min.js"></script>
+  <script src="assets/library/jquery/jquery-ui.js"></script>
+
+  <!-- App js & Config js -->
+  <script src="app.js"></script>
+  <script src="config.js"></script>
+  <script src="routes.js"></script>
+  <script src="rootController.js"></script>
+
+  <!-- Controller -->
+  <script src="controller/homeViewController.js"></script>
+
+  <!-- Services -->
+  <script src="services/commonUtilityService.js"></script>
+  <script src="services/propertyService.js"></script>
+  <script src="services/widgetsListDataService.js"></script>
+
+  <!-- Filters -->
+  <script src="filters/commonUtilityFilter.js"></script>
+
+  <!-- Directives -->
+  <script src="directives/commonUtilDirectives.js"></script>
+
+  <!-- Widgets Service -->
+  <script src="aap-widgets/widget.js"></script>
+  <script src="aap-widgets/widgetService.js"></script>
+
+  <!-- Search Widgets -->
+  <script src="aap-widgets/search-widget/searchController.js"></script>
+  <script src="aap-widgets/search-widget/searchDirective.js"></script>
+  <script src="aap-widgets/search-widget/searchServices.js"></script>
+
+  <!-- Usage Metrics Widgets -->
+  <script src="aap-widgets/usage-metrics-widget/usageMetricsController.js"></script>
+  <!-- <script src="aap-widgets/usage-metrics-widget/usageMetricsDirective.js"></script> -->
+  <script src="aap-widgets/usage-metrics-widget/usageMetricsService.js"></script>
+  <!--endbuild-->
+
+</html> 
