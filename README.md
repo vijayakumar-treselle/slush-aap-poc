@@ -1,6 +1,6 @@
-# Slush Aap-poc [![Build Status]
+# Slush Aap-poc
 
-> Slush Generator for AAP PoC, initial version
+Slush Generator for AAP PoC, initial version
 
 
 ## Getting Started
