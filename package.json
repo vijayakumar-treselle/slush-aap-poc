@@ -1,7 +1,7 @@
 {
     "name": "slush-aap-poc",
     "description": "Slush Generator for AAP PoC, initial version",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "homepage": "https://github.com/vijayakumar-treselle/slush-aap-poc",
     "author": {
         "name": "Vijayakumar",
