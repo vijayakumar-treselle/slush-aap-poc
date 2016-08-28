@@ -160,7 +160,7 @@ application
      * @returns {Array | Object}
      */
     $scope.processFamilyDetails = function (responseData) {
-      if(_.size(responseData)) {
+      if(angular.isDefined(responseData) && responseData !== '' && responseData.length) {
         var familyDetails = [];
         angular.forEach(responseData, function(value) {
           familyDetails.push(value.name);

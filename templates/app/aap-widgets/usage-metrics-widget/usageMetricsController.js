@@ -16,7 +16,7 @@ application
         var currentSection = $route.current.originalPath.replace(/^\//, '').replace(/\/$/, '').split('/')[0];
         $scope.trackData.datetime =  $scope.getTrackTime();
 
-        if(_.size(metricsDetail)) {
+        if(angular.isDefined(metricsDetail) && metricsDetail !== '' && metricsDetail.length) {
           angular.forEach(metricsDetail, function(value, key) {
             $scope.trackData[key] = value;
           });

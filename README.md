@@ -1,6 +1,6 @@
-# Slush Aap-poc 
+# Slush Aap-poc [![Build Status]
 
-Initial slush generator for aap poc
+> Slush Generator for AAP PoC, initial version
 
 
 ## Getting Started
@@ -22,7 +22,7 @@ $ mkdir my-slush-aap-poc
 Run the generator from within the new folder:
 
 ```bash
-$ cd my-slush-aap-poc && slush aap_poc
+$ cd my-slush-aap-poc && slush aap-poc
 ```
 
 ## Getting To Know Slush
