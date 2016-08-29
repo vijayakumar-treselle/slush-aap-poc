@@ -2,7 +2,6 @@
 
 Slush Generator for AAP PoC
 
-
 ## Getting Started
 
 Install `slush-aap-poc` globally:
@@ -25,10 +24,12 @@ Run the generator from within the new folder:
 $ cd my-slush-aap-poc && slush aap-poc
 ```
 
-## Getting To Know Slush
+## Steps (To install slush aap-poc package):
 
-Slush is a tool that uses Gulp for project scaffolding.
-
-Slush does not contain anything "out of the box", except the ability to locate installed slush generators and to run them with liftoff.
-
-To find out more about Slush, check out the [documentation](https://github.com/slushjs/slush)
+1. Install npm package if its not available in a particular host or system.
+2. Once npm is available, Install the node package 'slush-aap-poc' globally.
+   $ npm install -g slush-aap-poc
+3. Create an new folder, move to the working directory and give the following command to slush the 'aap-poc'
+   $ slush aap-poc
+4. Once above comment is given it prompts you to give the details
+5. Once the details given it will download the depended node modules and the App to the local system
