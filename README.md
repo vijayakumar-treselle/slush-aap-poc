@@ -10,6 +10,12 @@ Install `slush-aap-poc` globally:
 $ npm install -g slush-aap-poc
 ```
 
+You'll also need to have bower, slush and gulp installed globally for a smooth installation
+
+```bash
+$ npm install -g bower gulp slush
+```
+
 ### Usage
 
 Create a new folder for your project:
